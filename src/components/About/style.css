@@ -1,22 +1,24 @@
 #about{
-	width:100%;
-	max-width: 1000px;
-	margin: 0 auto;
+	width:calc(100% - 100px);
+	padding-top:20px;
 	position:relative;
-
+	border-right:2px solid #3C4586;
 	font-size:18px;
 	min-height: calc(100vh - 190px);
 }
+
 #about img{
 	width:100%;
 	max-width: 500px;
 	display: block;
-	margin: 20px auto 0;
+	margin: 0px auto 0;
 	border: 2px solid #3C4586;
 	border-top: 1px solid #3C4586;
 }
 #about p{
-	display: inline-block;
+    max-width: 1000px;
+	display: block;
+	margin:0 auto;
 	padding:10px;
 	width:100%;
 	vertical-align: top;

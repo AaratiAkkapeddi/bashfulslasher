@@ -8,7 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
-import {Header} from "../"
+import {Header, Footer} from "../"
 class About extends Component {
   constructor(props) {
     super(props);
@@ -39,7 +39,7 @@ class About extends Component {
 
          <img src={about[0].fields.Image[0].url}/>
           <ReactMarkdown source={about[0].fields.About}/>
-           
+           <Footer/>
           </>
           )
           : ""}

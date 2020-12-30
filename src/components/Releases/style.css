@@ -1,7 +1,7 @@
 #releases{
   border-right:2px solid #3C4586;
   height: calc(100vh - 190px);
-  width: calc(100% - 150px);
+  width: calc(100% - 100px);
   overflow-y:scroll;
   overflow-x: hidden;
   position: relative;
@@ -65,7 +65,7 @@ p, h2{
 	text-decoration: underline;
 }
 .card{
-	width:calc(100% - 150px);
+	width:calc(100% - 100px);
 	border:2px solid #3C4586;
 	margin:10px;
 	padding:10px 20px;
@@ -93,7 +93,7 @@ p, h2{
 		right:5px;
 	}
 	.card{
-		width:calc(100% - 30px);
+		width:calc(100% - 25px);
 		margin:5px;
 		padding:5px;
 	}
@@ -101,4 +101,24 @@ p, h2{
 		margin:0;
 		font-size:36px;
 	}
+	/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  display: none;
+
+}
 }
