@@ -20,7 +20,7 @@ class Header extends Component {
     return (
 
      <header className="App-header Homepage">
-          <h1 id="main-header">Bashful Slasher</h1>      
+          <h1 id="main-header"><a href='/'>Bashful Slasher</a> </h1>     
          {about ? 
           (
           <a href='./'>Releases</a>

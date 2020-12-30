@@ -9,6 +9,10 @@
 	transition:0.5s;
 	cursor: pointer;
 }
+#main-header a{
+	font-size: 144px;
+	color: #3C4586;
+}
 header > a{
 	position: fixed;
 	top: 15px;
@@ -23,6 +27,9 @@ header > a{
 }
 
 @media(max-width: 768px){
+	#main-header a{
+	font-size: 40px;
+	}
 	#main-header{
 		font-size:40px;
 		padding-left:10px;
