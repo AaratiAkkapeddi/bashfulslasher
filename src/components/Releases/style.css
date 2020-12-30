@@ -1,0 +1,104 @@
+#releases{
+  border-right:2px solid #3C4586;
+  height: calc(100vh - 190px);
+  width: calc(100% - 502px);
+  overflow-y:scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+.card h1{
+	margin:0;
+	font-size:64px;
+}
+div#nonartarea{
+	background:transparent !important;
+}
+.card .card-header p{
+	float:right;
+	position: absolute;
+	top:0px;
+	right:15px;
+}
+.card {
+	position: relative;
+	font-size:18px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3C4586;
+  border-radius:50px;
+  border:1px solid #3C4586;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius:50px;
+  border:1px solid #3C4586;
+
+}
+
+p, h2{
+	letter-spacing: 0.01em;
+	line-height: 1.5em;
+}
+#releases h2{
+	margin:0;
+	padding-left:15px;
+	border-bottom:2px solid #3C4586;
+}
+.card > p{
+	max-width: 1000px;
+}
+.card > p a{
+	font-size:18px;
+	text-decoration: underline;
+}
+.card{
+	width:calc(100% - 150px);
+	border:2px solid #3C4586;
+	margin:10px;
+	padding:10px 20px;
+}
+
+@media(max-width: 768px){
+	#releases{
+	  border-right:0px solid #3C4586;
+	  height: auto;
+	  width: 100vw;
+	  margin:0;
+	  border:none;
+	  margin-top:60px;
+	  padding:0;
+      overflow:auto;
+      padding-bottom:50px;
+	  position: relative;
+	}
+
+	.card .card-header p{
+		float:right;
+		position: absolute;
+		top:0px;
+		font-size:12px;
+		right:5px;
+	}
+	.card{
+		width:calc(100% - 30px);
+		margin:5px;
+		padding:5px;
+	}
+	.card h1{
+		margin:0;
+		font-size:36px;
+	}
+}

@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Andale Mono";
+  src: url("./fonts/andalemo.ttf") format("truetype"),
+      url("./fonts/andalemo-webfont.woff") format("woff"),
+      url("./fonts/andalemo-webfont.woff2") format("woff2");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Free Serif";
+  src: url("./fonts/freeserifbolditalic.ttf") format("truetype"),
+       url("./fonts/freeserifbolditalic-webfont.woff") format("woff"),
+       url("./fonts/freeserifbolditalic-webfont.woff2") format("woff2");
+      
+}
+body header{
+  overflow: hidden;
+
+}
+body{
+  overflow: hidden;
+  background: #F2F0E9;
+  color: #3C4586;
+  border:2px solid #3C4586;
+  min-height:100vh;
+  margin:0;
+  font-size:36px;
+  padding:0;
+  font-family: "Andale Mono", monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1{
+  font-size:64px;
+  font-family:"Free Serif", serif;
+}
+h2{
+  font-weight:normal;
+  font-size:36px;
+}
+a:link{
+  color:#3C4586;
+  font-size:36px;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+iframe{
+  max-width: 100%;
+  
+}
+.iframe{
+  border:2px solid #3C4586;
+  display: inline-block;
+}
+@media(max-width: 768px){
+  body,body header{
+    overflow-y: visible;
+    border:none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h2{
+    font-size:18px;
   }
-  to {
-    transform: rotate(360deg);
+  a:link{
+    font-size:18px;
   }
 }
