@@ -23,6 +23,12 @@
     display: block;
     transform-origin: top right;
 }
+@media(max-height: 800px){
+		#footer .email{
+			font-size:30px;
+			transform: rotate(90deg) translate(322px, 21px);
+		}
+}
 /* MOBILE */
 @media(max-width:768px){
 	#footer{

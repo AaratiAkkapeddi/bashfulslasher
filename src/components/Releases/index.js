@@ -17,7 +17,7 @@ class Releases extends Component {
 
    render() {
     const {releases} = this.props
-    const releaseCards = releases.reverse().map((x)=>{
+    const releaseCards = releases.map((x)=>{
       console.log(x)
       return(
         <div className="card">

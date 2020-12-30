@@ -8,7 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
-
+import {Header} from "../"
 class About extends Component {
   constructor(props) {
     super(props);
@@ -30,14 +30,16 @@ class About extends Component {
 
     return (
       <>
-      <div onClick={this.toggleOpen} className="about-mobile-trigger">About</div>
+      <Header about={true}></Header>
+      
       <div className={open ? "open":""} id="about">
         {about[0] ?
          (
           <>
-          <div onClick={this.toggleClose} id="close-about">X</div>
-          <img src={about[0].fields.Image[0].url}/>
+
+         <img src={about[0].fields.Image[0].url}/>
           <ReactMarkdown source={about[0].fields.About}/>
+           
           </>
           )
           : ""}

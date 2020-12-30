@@ -9,6 +9,14 @@
 	transition:0.5s;
 	cursor: pointer;
 }
+header > a{
+	position: fixed;
+	top: 15px;
+	font-size:36px;
+	color: #3C4586;
+	z-index: 99;
+	right: 15px;
+}
 #main-header:hover{
 
 /*	text-shadow: 1px 1px 5px #f7512880;*/

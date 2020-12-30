@@ -16,11 +16,18 @@ class Header extends Component {
    }
 
    render() {
-
+    const {about} = this.props
     return (
 
      <header className="App-header Homepage">
-          <h1 id="main-header">Bashful Slasher</h1>         
+          <h1 id="main-header">Bashful Slasher</h1>      
+         {about ? 
+          (
+          <a href='./'>Releases</a>
+          )
+          : (
+          <a href='./about'>About</a>
+          )} 
       </header>
 
 

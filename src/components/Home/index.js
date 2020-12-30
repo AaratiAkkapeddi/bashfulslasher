@@ -23,9 +23,8 @@ class Home extends Component {
     return (
 
      <header className="App-header Homepage">
-          <Header></Header>
+          <Header about={false}></Header>
           <Releases releases={releases}></Releases>
-          <About about={about}></About>
           <Footer></Footer>
       </header>
       
