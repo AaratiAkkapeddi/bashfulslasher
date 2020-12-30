@@ -1,6 +1,6 @@
 #main-header{
-	background-image: url('./tshirt2019.png');
-	background-position:50% 50%;
+
+
 	font-size: 144px;
 	margin:0;
 	border-bottom:2px solid #3C4586;
@@ -10,7 +10,7 @@
 	cursor: pointer;
 }
 #main-header:hover{
-	background-position:40% 50%;
+
 /*	text-shadow: 1px 1px 5px #f7512880;*/
 }
 
