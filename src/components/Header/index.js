@@ -16,7 +16,7 @@ class Header extends Component {
    }
 
    render() {
-    const {about} = this.props
+    const {about, studio} = this.props
     return (
 
      <header className="App-header Homepage">
@@ -28,6 +28,13 @@ class Header extends Component {
           : (
           <a href='./about'>About</a>
           )} 
+           {studio ? 
+          (
+          <a href='./'>Releases</a>
+          )
+          : (
+          <a href='./studio'>Studio</a>
+          )}
       </header>
 
 

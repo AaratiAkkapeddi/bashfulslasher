@@ -21,12 +21,29 @@ header > a{
 	z-index: 99;
 	right: 15px;
 }
+header > a:nth-child(2){
+	top: 35px;
+}
+header > a:last-child{
+	top: 100px;
+}
 #main-header:hover{
 
 /*	text-shadow: 1px 1px 5px #f7512880;*/
 }
 
 @media(max-width: 768px){
+    header > a{
+    	right:8px;
+    }
+	header > a:nth-child(2){
+		top: 3px;
+	}
+	header > a:last-child{
+		top: 27px;
+	}
+
+
 	#main-header a{
 	font-size: 40px;
 	}

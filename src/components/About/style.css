@@ -50,12 +50,13 @@
 	}
 	#about{
 		background:#F2F0E9;
-		position: fixed;
+	/*	position: fixed;*/
 		top:50px;
 		left:0;
 		width:calc(100vw - 80px);
 		height:100vh;
 		padding:40px;
+		padding-bottom:100px;
 	}
 	#about img{
 		border:2px solid #3C4586;
