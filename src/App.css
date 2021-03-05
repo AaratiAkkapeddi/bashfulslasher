@@ -12,9 +12,12 @@
        url("./fonts/freeserifbolditalic-webfont.woff2") format("woff2");
       
 }
+body header{
+  overflow: hidden;
 
+}
 body{
-
+  overflow: hidden;
   background: #F2F0E9;
   color: #3C4586;
   border:2px solid #3C4586;

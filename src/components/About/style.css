@@ -5,6 +5,8 @@
 	border-right:2px solid #3C4586;
 	font-size:18px;
 	min-height: calc(100vh - 190px);
+	overflow-y:scroll;
+	height:calc(100vh - 188px);
 }
 
 #about img{
