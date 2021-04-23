@@ -30,7 +30,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-      fetch('https://api.airtable.com/v0/app9707VoQ6iOhLcD/Releases?api_key='+process.env.REACT_APP_AIRTABLE_API_KEY)
+      fetch('https://api.airtable.com/v0/app9707VoQ6iOhLcD/Releases?api_key='+process.env.REACT_APP_AIRTABLE_API_KEY+"&view=hp")
         .then(res => res.json())
         .then(res => {
           this.setState({ releases: res.records.reverse() })
